@@ -56,7 +56,12 @@ const GraphicsSection = () => {
 
         <div className="p-4 max-w-xs">
           <div className="flex rounded-lg h-full dark:bg-gray-800 bg-teal-400 p-8 flex-col">
-            <img src={graphicsTwo} className="h-full" alt="" />
+            <img
+              src={graphicsTwo}
+              style={{ filter: `invert(0.8)` }}
+              className="h-full"
+              alt=""
+            />
             {/* <div className="flex items-center mb-3">
               <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
                 <svg
