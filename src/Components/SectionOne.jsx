@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionOne = () => {
   return (
-    <div className="border" style={{ borderBottom: "1px solid grey" }}>
+    <div className="border" style={{ borderBottom: "0.5px solid grey" }}>
       <div className="wrapper flex justify-between items-center w-[90%] m-auto mt-[45px] flex-wrap">
         <div className="leftSide_sectOne">
           <h4>Your story matters...</h4>
