@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rightSide_sectOne {
+  /* width: 50% !important; */
+  float: right;
+  display: flex;
+  justify-content: end;
+}
+.leftSide_sectOne {
+  font-family: "Mansalva", sans-serif;
+  width: min-content;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  word-spacing: 100vw;
+}
