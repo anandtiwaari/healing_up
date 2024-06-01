@@ -5,15 +5,18 @@ import WhyHealingUp from "./Components/WhyHealingUp";
 import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
 import GraphicsSection from "./Components/GraphicsSection";
+import HomePage from "./Components/HomePage";
+import AboutPage from "./Components/AboutPage";
+import { Route, Routes } from "react-router-dom";
+import Footer from "./Components/Footer";
 const App = () => {
   return (
     <div>
-      {/* <Theme accentColor="crimson" grayColor="sand" radius="large" scaling="95%"> */}
-      <NavigationBar />
-      <SectionOne />
-      <WhyHealingUp />
-      <GraphicsSection/>
-      {/* </Theme> */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+      </Routes>
+      <Footer />
     </div>
   );
 };

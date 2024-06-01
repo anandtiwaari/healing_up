@@ -1,5 +1,6 @@
 import React from "react";
 import healingLogo from "../assets/Healing_up_log.png";
+import { Link } from "react-router-dom";
 const NavigationBar = () => {
   return (
     <nav className="bg-[#d3a37f] border-gray-200 dark:bg-[#d3a37f]">
@@ -49,8 +50,8 @@ const NavigationBar = () => {
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-[#d3a37f] md:dark:bg-[#d3a37f] dark:border-gray-700">
             <li>
-              <a
-                href="#"
+              <Link
+                to="/about"
                 className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white 
                 "
                 // md:dark:text-blue-500
@@ -58,7 +59,7 @@ const NavigationBar = () => {
                 aria-current="page"
               >
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
               <a
