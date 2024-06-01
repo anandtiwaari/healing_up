@@ -22,7 +22,7 @@ function CheckIcon(props) {
 const AboutPage = () => {
   return (
     <div>
-      <div className="bg-gray-900 dark:bg-gray-900">
+      <div className="bg-gray-900 dark:bg-gray-900 dark:text-white">
         <section className="container mx-auto px-4 py-12 md:py-20 lg:py-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
             <div className="space-y-6">
