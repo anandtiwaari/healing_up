@@ -7,7 +7,7 @@ import GraphicsSection from "./GraphicsSection";
 const HomePage = () => {
   return (
     <div>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
       <SectionOne />
       <WhyHealingUp />
       <GraphicsSection />
